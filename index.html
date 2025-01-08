@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>FABRITCIO Desarrollo Web</title>
+</head>
+<body>
+    <!-- SECCION INICIO -->
+     <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                   <h1>MI PORTAFOLIO</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portafolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Iconos del menu responsive -->
+                     <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                     </div>
+                     <!-- Iconos de las redes sociales -->
+                      <div class="redes">
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                      </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Fabritcio Collanco</span>, Programador Web</h2>
+                <p class="descripcion">Especializado en la creación de soluciones digitales personalizadas. Con un enfoque en diseño de sitios web, programación Java, electrónica y automatización, me dedico a ofrecer resultados innovadores y eficientes que cumplen con los objetivos de cada proyecto.</p>
+                <a href="portafolio">Ir a Portafolio</a>
+            </div>
+        </div>
+     </section>
+
+     <!-- SECCION SOBRE MI -->
+      <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="imagenes/FotoYO.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, soy <span>Fabritcio Collanco</span></h2>
+            <h3>Programador Web</h3>
+            <p>¡Hola! Soy Fabritcio, un apasionado de la programación con un enfoque en crear soluciones innovadoras y atractivas. A lo largo de mi vida, he tenido la oportunidad de aprender y colaborar en proyectos de diversas personas, lo cual me ha permitido desarrollar una mentalidad creativa y adaptable, siempre priorizando la satisfacción del usuario y la calidad de los resultados.
+            </p></p>
+            <h2>VISIÓN</h2>
+            <p>Ser reconocido como un líder en la ingeniería de sistemas, impulsando la transformación digital en diversas industrias a través de la innovación constante, el trabajo colaborativo y el compromiso con la excelencia, creando un impacto positivo en la sociedad.</p>
+            <h2>MISIÓN</h2>
+            <p>Desarrollar soluciones tecnológicas innovadoras y eficientes que optimicen procesos y mejoren la experiencia del usuario, mediante la integración de sistemas, el análisis de datos y la aplicación de metodologías ágiles, contribuyendo al crecimiento y sostenibilidad de las organizaciones.</p>
+            <a href="#">Descargar CV</a>
+        </div>
+      </section>
+
+      <!-- SECCION SERVICIOS -->
+       <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Experiencias</li>
+                    <li>Digitales</li>
+                    <li>Únicas</li>
+                </ul>
+                <p>Creación de páginas modernas, atractivas y funcionales, optimizadas para usuarios y dispositivos.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Programación Java</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Aplicaciones</li>
+                    <li>Eficientes y</li>
+                    <li>Escalables</li>
+                </ul>
+                <p>Desarrollo de aplicaciones robustas y eficientes, desde software empresarial hasta proyectos personalizados.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Electrónica</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Soluciones</li>
+                    <li>Electrónicas</li>
+                    <li>Innovadoras</li>
+                </ul>
+                <p>Diseño y desarrollo de circuitos electrónicos innovadores, enfocados en soluciones prácticas.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Algoritmo y Estructura de Datos</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Optimización con</li>
+                    <li>Algoritmos</li>
+                    <li>Eficientes</li>
+                </ul>
+                <p>Optimización de procesos con soluciones eficientes basadas en lógica y organización de datos.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Consultor Externo</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Asesoria</li>
+                    <li>Estratégica en</li>
+                    <li>Tecnología</li>
+                </ul>
+                <p>Asesoría técnica para proyectos tecnológicos, brindando soluciones personalizadas y estratégicas.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Arduino</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Prototipos y</li>
+                    <li>Automatización con</li>
+                    <li>Arduino</li>
+                </ul>
+                <p>Desarrollo de proyectos de automatización y prototipos electrónicos utilizando plataformas Arduino.</p>
+            </div>
+        </div>
+       </section>
+
+       <!-- SECCION HABILIDADES -->
+        <div class="contenedor-skills" id="skills">
+            <h3>HABILIDADES</h3>
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>Java</p>
+                    <span class="porcentaje">95%</span>
+                </div>
+                <div class="barra">
+                    <div id="java" class=""></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>Javascript</p>
+                    <span class="porcentaje">90%</span>
+                </div>
+                <div class="barra">
+                    <div id="js" class=""></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>Html & Css</p>
+                    <span class="porcentaje">90%</span>
+                </div>
+                <div class="barra">
+                    <div id="html" class=""></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>Base de Datos</p>
+                    <span class="porcentaje">85%</span>
+                </div>
+                <div class="barra">
+                    <div id="bd" class=""></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECCION PORTAFOLIO -->
+         <section id="portafolio">
+            <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="imagenes/SEMANA1.jpg" alt="">
+                    <div class="info">
+                        <h4>INTRODUCCIÓN</h4>
+                        <p>SEMANA 1</p>
+                        <iframe src="archivos/Actividad1y2Sema1.pdf" width="100%" height="200"></iframe>
+                        <a href="archivos/Actividad1y2Sema1.pdf" target="_blank">Ver PDF completo</a>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="imagenes/SEMANA2.jpg" alt="">
+                    <div class="info">
+                        <h4>INTRODUCCIÓN A EXCEL</h4>
+                        <p>SEMANA 2</p>
+                        <a href="archivos/EjerciciosExcelS2.xlsx" download="EjerciciosExcelS2.xlsx">Descargar Excel</a>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="imagenes/SEMANA3.jpg" alt="">
+                    <div class="info">
+                        <h4>TRABAJANDO CON DATOS</h4>
+                        <p>SEMANA 3</p>
+                        <a href="archivos/EjerciciosExcelS3.xlsx" download="EjerciciosExcelS3.xlsx">Descargar Excel</a>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="imagenes/SEMANA4.jpg" alt="">
+                    <div class="info">
+                        <h4>CREACIÓN DE GRAFICOS ESTADÍSTICOS</h4>
+                        <p>SEMANA 4</p>
+                        <a href="archivos/EjerciciosExcelS4.xlsx" download="EjerciciosExcelS4">Descargar Excel</a>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="imagenes/SEMANA5.jpg" alt="">
+                    <div class="info">
+                        <h4>ESQUEMAS/SUBTOTAL</h4>
+                        <p>SEMANA 5</p>
+                        <a href="archivos/EjerciciosExcelS5.xlsx" download="EjerciciosExcelS5">Descargar Excel</a>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="imagenes/SEMANA6.jpg" alt="">
+                    <div class="info">
+                        <h4>FUNCIONES PARA LA ADMINISTRACIÓN DE DATOS</h4>
+                        <p>SEMANA 6</p>
+                        <a href="archivos/EjerciciosExcelS6.xlsx" download="EjerciciosExcelS6">Descargar Excel</a>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="imagenes/SEMANA7.jpg" alt="">
+                    <div class="info">
+                        <h4>BUSQUEDA Y REFERENCIA</h4>
+                        <p>SEMANA 7</p>
+                        <a href="archivos/EjerciciosExcelS7.xlsx" download="EjerciciosExcelS7">Descargar Excel</a>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="imagenes/SEMANA8.jpg" alt="">
+                    <div class="info">
+                        <h4>ESTADÍSTICAS DESCRIPTIVAS: ORDENAR Y FILTRAR</h4>
+                        <p>SEMANA 8</p>
+                        <a href="archivos/EjerciciosExcelS8.xlsx" download="EjerciciosExcelS8">Descargar Excel</a>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="imagenes/SEMANA9.jpg" alt="">
+                    <div class="info">
+                        <h4>TABLAS DINAMICAS</h4>
+                        <p>SEMANA 9</p>
+                        <a href="archivos/EjerciciosExcelS9.xlsx" download="EjerciciosExcelS9">Descargar Excel</a>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="imagenes/SEMANA10.jpg" alt="">
+                    <div class="info">
+                        <h4>ANÁLISIS Y ESCENARIOS</h4>
+                        <p>SEMANA 10</p>
+                        <a href="archivos/EjerciciosExcelS10.xlsx" download="EjerciciosExcelS10">Descargar Excel</a>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="imagenes/SEMANA11.jpg" alt="">
+                    <div class="info">
+                        <h4>ANÁLISIS COSTO-BENEFICIO Y ARBOLES DE DECISIÓN</h4>
+                        <p>SEMANA 11</p>
+                        <a href="archivos/EjerciciosExcelS11.xlsx" download="EjerciciosExcelS11">Descargar Excel</a>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="imagenes/SEMANA12.jpg" alt="">
+                    <div class="info">
+                        <h4>ANALISIS DE RIESGO - SIMULACIÓN - OPTIMIZACIÓN</h4>
+                        <p>SEMANA 12</p>
+                        <a href="archivos/EjerciciosExcelS12.xlsx" download="EjerciciosExcelS12">Descargar Excel</a>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="imagenes/SEMANA13.jpg" alt="">
+                    <div class="info">
+                        <h4>SOLVER</h4>
+                        <p>SEMANA 13</p>
+                        <a href="archivos/EjerciciosExcelS13.xlsx" download="EjerciciosExcelS13">Descargar Excel</a>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="imagenes/SEMANA14.jpg" alt="Semana 14">
+                    <div class="info">
+                      <h4>REPORTE POWER BI</h4>
+                      <p>Semana 14</p>
+                      <a href="archivos/PowerBiS14.pbix" download="PowerBiS14">Descargar Power BI</a>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="imagenes/SISTEMA.png" alt="">
+                    <div class="info">
+                        <h4>GESTION DE COMPRAS Y VENTAS</h4>
+                        <p>SISTEMA</p>
+                        <a href="archivos/GESTION-COMPRAS-VENTAS-OFICIAL.xlsm" download="GESTION-COMPRAS-VENTAS-OFICIAL">Descargar Excel</a>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- SECCION CONTACTO -->
+          <section id="contacto">
+            <h3 class="titulo-seccion">Contactanos Ahora</h3>
+            <div class="contenedor-form">
+                <form action="">
+                    <div class="fila mitad">
+                        <input type="text" placeholder="Nombre Completo" class="input-mitad">
+                        <input type="text" placeholder="Direccion de Email" class="input-mitad">
+                    </div>
+                    <div class="fila">
+                        <input type="text" placeholder="Tema..." class="input-full">
+                    </div>
+                    <div class="fila">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje..." class="input-full"></textarea>
+                    </div>
+
+                    <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+                </form>
+            </div>
+          </section>
+
+          <!-- SECCION FOOTER -->
+           <footer>
+                <p>Todos los derechos reservados - 2024</p>
+                <div class="redes">
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </div>
+           </footer>
+
+           <script src="script.js"></script>
+</body>
+</html>
